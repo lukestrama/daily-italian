@@ -11,7 +11,7 @@ client = Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
 PROMPT = """
 Generi:
 - un modo di dire con esempi
-- una traccia del giorno. La risposta deve essere 160-180 parole e addattato per il C1 CILS esame
+- una traccia del giorno. La risposta deve essere 40-60 parole e addattato per il C1 CILS esame
 
 Send it in the following format and all formatting should be email compatible:
 
