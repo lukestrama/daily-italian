@@ -2,7 +2,7 @@ name: Daily Claude Email
 
 on:
   schedule:
-    - cron: "45 * * * *"
+    - cron: "5 4 * * *"
   workflow_dispatch:
 
 permissions:
