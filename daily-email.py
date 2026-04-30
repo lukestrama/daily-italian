@@ -111,5 +111,5 @@ history["topics"] = history["topics"][-50:]
 
 with open("history.json", "w") as f:
     json.dump(history, f, indent=2)
-
+print("Updated history:", history)
 print("Email sent.")
