@@ -27,3 +27,11 @@ jobs:
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: python daily-email.py
+
+      - name: Commit history
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add history.json
+          git commit -m "update history" || echo "no changes"
+          git push
