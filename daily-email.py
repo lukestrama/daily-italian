@@ -28,8 +28,8 @@ Generate:
 Rules:
 - MUST be different from anything in this list
 - Avoid similar meanings or close variants
-- Prefer less common expressions
 - everything must be italian
+- the traccia should not be Italy specific. Something more universal.
 
 Previous modi:
 {history['modi']}
